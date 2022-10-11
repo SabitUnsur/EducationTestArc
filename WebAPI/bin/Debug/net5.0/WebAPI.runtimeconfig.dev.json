@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\sabit\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\sabit\\.nuget\\packages"
+    ]
+  }
+}

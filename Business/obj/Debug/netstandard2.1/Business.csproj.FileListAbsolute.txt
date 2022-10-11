@@ -1,0 +1,17 @@
+C:\Users\sabit\source\repos\EducationBackend\Business\obj\Debug\netstandard2.1\Business.csproj.AssemblyReference.cache
+C:\Users\sabit\source\repos\EducationBackend\Business\obj\Debug\netstandard2.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabit\source\repos\EducationBackend\Business\obj\Debug\netstandard2.1\Business.AssemblyInfoInputs.cache
+C:\Users\sabit\source\repos\EducationBackend\Business\obj\Debug\netstandard2.1\Business.AssemblyInfo.cs
+C:\Users\sabit\source\repos\EducationBackend\Business\obj\Debug\netstandard2.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\sabit\source\repos\EducationBackend\Business\bin\Debug\netstandard2.1\Business.deps.json
+C:\Users\sabit\source\repos\EducationBackend\Business\bin\Debug\netstandard2.1\Business.dll
+C:\Users\sabit\source\repos\EducationBackend\Business\bin\Debug\netstandard2.1\Business.pdb
+C:\Users\sabit\source\repos\EducationBackend\Business\bin\Debug\netstandard2.1\Core.dll
+C:\Users\sabit\source\repos\EducationBackend\Business\bin\Debug\netstandard2.1\DataAccess.dll
+C:\Users\sabit\source\repos\EducationBackend\Business\bin\Debug\netstandard2.1\Entities.dll
+C:\Users\sabit\source\repos\EducationBackend\Business\bin\Debug\netstandard2.1\DataAccess.pdb
+C:\Users\sabit\source\repos\EducationBackend\Business\bin\Debug\netstandard2.1\Entities.pdb
+C:\Users\sabit\source\repos\EducationBackend\Business\bin\Debug\netstandard2.1\Core.pdb
+C:\Users\sabit\source\repos\EducationBackend\Business\obj\Debug\netstandard2.1\Business.csproj.CopyComplete
+C:\Users\sabit\source\repos\EducationBackend\Business\obj\Debug\netstandard2.1\Business.dll
+C:\Users\sabit\source\repos\EducationBackend\Business\obj\Debug\netstandard2.1\Business.pdb
