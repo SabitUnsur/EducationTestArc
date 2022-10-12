@@ -1,4 +1,8 @@
-﻿using Core.Utilities.Results;
+﻿using Business.BusinessAspects;
+using Business.Constants;
+using Business.Handlers.Languages.ValidationRules;
+using Core.Aspects.Autofac.Validation;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using System;
@@ -17,12 +21,14 @@ namespace Business.Adapters.StudentService
 
         public IResult Add(Student student)
         {
-            throw new NotImplementedException();
+            _studentDal.Add(student);
+            return new SuccessResult(Messages.StudentAdded);
         }
 
         public IResult Delete(Student student)
         {
             throw new NotImplementedException();
+
         }
 
         public IDataResult<List<Student>> GetAll()

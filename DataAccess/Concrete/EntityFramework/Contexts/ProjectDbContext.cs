@@ -57,7 +57,7 @@ namespace DataAccess.Concrete.EntityFramework.Contexts
         {
             if (!optionsBuilder.IsConfigured)
             {
-                base.OnConfiguring(optionsBuilder.UseNpgsql(Configuration.GetConnectionString(@"Server=(localdb)\mssqllocaldb;DataBase=EducationWeb;Trusted_Connection=true"))
+                base.OnConfiguring(optionsBuilder.UseNpgsql(Configuration.GetConnectionString("DArchPgContext"))
                     .EnableSensitiveDataLogging());
             }
         }
