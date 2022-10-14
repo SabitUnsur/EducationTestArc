@@ -18,6 +18,7 @@ namespace Business.Fakes.DArch
                 base.OnConfiguring(
                     optionsBuilder.UseInMemoryDatabase(Configuration.GetConnectionString("DArchInMemory")));
             }
+
         }
     }
 }

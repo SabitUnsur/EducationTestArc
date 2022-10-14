@@ -1,6 +1,7 @@
 using Core.Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using System.Linq;
 using System.Reflection;
 
 namespace DataAccess.Concrete.EntityFramework.Contexts
@@ -51,15 +52,18 @@ namespace DataAccess.Concrete.EntityFramework.Contexts
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+            
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            
             if (!optionsBuilder.IsConfigured)
             {
                 base.OnConfiguring(optionsBuilder.UseNpgsql(Configuration.GetConnectionString("DArchPgContext"))
                     .EnableSensitiveDataLogging());
             }
+
         }
     }
 }

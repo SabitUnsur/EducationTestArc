@@ -1,0 +1,10 @@
+C:\Users\sabit\source\repos\EducationBackend\Core\bin\Release\netstandard2.1\Core.deps.json
+C:\Users\sabit\source\repos\EducationBackend\Core\bin\Release\netstandard2.1\Core.dll
+C:\Users\sabit\source\repos\EducationBackend\Core\bin\Release\netstandard2.1\Core.pdb
+C:\Users\sabit\source\repos\EducationBackend\Core\obj\Release\netstandard2.1\Core.csproj.AssemblyReference.cache
+C:\Users\sabit\source\repos\EducationBackend\Core\obj\Release\netstandard2.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabit\source\repos\EducationBackend\Core\obj\Release\netstandard2.1\Core.AssemblyInfoInputs.cache
+C:\Users\sabit\source\repos\EducationBackend\Core\obj\Release\netstandard2.1\Core.AssemblyInfo.cs
+C:\Users\sabit\source\repos\EducationBackend\Core\obj\Release\netstandard2.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\sabit\source\repos\EducationBackend\Core\obj\Release\netstandard2.1\Core.dll
+C:\Users\sabit\source\repos\EducationBackend\Core\obj\Release\netstandard2.1\Core.pdb

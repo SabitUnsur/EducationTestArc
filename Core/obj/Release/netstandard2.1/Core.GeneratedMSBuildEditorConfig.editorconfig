@@ -1,0 +1,4 @@
+is_global = true
+build_property.RefitInternalNamespace = Core
+build_property.RootNamespace = Core
+build_property.ProjectDir = C:\Users\sabit\source\repos\EducationBackend\Core\

@@ -19,8 +19,8 @@ namespace Tests.Helpers.Token
             SigningCredentials = new SigningCredentials(SecurityKey, SecurityAlgorithms.HmacSha256Signature);
         }
 
-        public static string Issuer { get; } = "www.devarchitecture.com";
-        public static string Audience { get; } = "www.devarchitecture.com";
+        public static string Issuer { get; } = "sabit@sabit.com";
+        public static string Audience { get; } = "sabit@sabit.com";
         public static SecurityKey SecurityKey { get; }
         public static SigningCredentials SigningCredentials { get; }
 
