@@ -51,33 +51,12 @@ namespace Business.Handlers.Authorizations.Commands
                     return new ErrorResult(Messages.WrongCitizenId);
                 }
 
-                else
-                {
-                    //string resetToken = await _userRepository.GeneratePasswordResetTokenAsync(user);
+                var generatedPassword = RandomPassword.CreateRandomPassword(14);
+                HashingHelper.CreatePasswordHash(generatedPassword, out var passwordSalt, out var passwordHash);
 
-                    MailMessage mail = new MailMessage();
-                    mail.IsBodyHtml = true;
-                    mail.To.Add(user.Email);
-                    mail.From = new MailAddress("sabitemir23@gmail.com", "Şifre Güncelleme", System.Text.Encoding.UTF8);
-                    mail.Subject = "Şifre Güncelleme Talebi";
-                    mail.IsBodyHtml = true;
-                    SmtpClient smp = new SmtpClient();
-                    smp.Credentials = new NetworkCredential("sabitemir23@gmail.com", "sabit123");
-                    smp.Port = 587;
-                    smp.Host = "smtp.gmail.com";
-                    smp.EnableSsl = true;
-                    var generatedPassword = RandomPassword.CreateRandomPassword(14);
-                    HashingHelper.CreatePasswordHash(generatedPassword, out var passwordSalt, out var passwordHash);
+                _userRepository.Update(user);
 
-                    _userRepository.Update(user);
-
-                    return new SuccessResult(Messages.SendPassword + " " + Messages.NewPassword + " " + generatedPassword);
-                    smp.Send(mail);
-
-                   
-                }
-
-               
+                return new SuccessResult(Messages.SendPassword +" " +  Messages.NewPassword + " " + generatedPassword);
             }
         }
     }
