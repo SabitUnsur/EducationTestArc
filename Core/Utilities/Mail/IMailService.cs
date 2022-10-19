@@ -1,4 +1,8 @@
-﻿namespace Core.Utilities.Mail
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Core.Utilities.Mail
 {
     public interface IMailService
     {

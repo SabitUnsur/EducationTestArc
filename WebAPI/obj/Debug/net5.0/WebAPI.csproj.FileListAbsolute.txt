@@ -223,3 +223,11 @@ C:\Users\sabit\source\repos\EducationBackend\WebAPI\obj\Debug\net5.0\WebAPI.pdb
 C:\Users\sabit\source\repos\EducationBackend\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
 C:\Users\sabit\source\repos\EducationBackend\WebAPI\obj\Debug\net5.0\ref\WebAPI.dll
 C:\Users\sabit\source\repos\EducationBackend\WebAPI\obj\Debug\net5.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\sabit\source\repos\EducationBackend\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\sabit\source\repos\EducationBackend\WebAPI\bin\Debug\net5.0\NETCore.MailKit.dll
+C:\Users\sabit\source\repos\EducationBackend\WebAPI\bin\Debug\net5.0\System.Formats.Asn1.dll
+C:\Users\sabit\source\repos\EducationBackend\WebAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\sabit\source\repos\EducationBackend\WebAPI\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\sabit\source\repos\EducationBackend\WebAPI\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
+C:\Users\sabit\source\repos\EducationBackend\WebAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\sabit\source\repos\EducationBackend\WebAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Text.Encoding.CodePages.dll

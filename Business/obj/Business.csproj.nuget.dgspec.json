@@ -179,10 +179,6 @@
               "target": "Package",
               "version": "[3.3.7, )"
             },
-            "MailKit": {
-              "target": "Package",
-              "version": "[2.15.0, )"
-            },
             "MediatR": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -227,7 +223,7 @@
             },
             "MimeKit": {
               "target": "Package",
-              "version": "[2.15.0, )"
+              "version": "[3.4.1, )"
             },
             "MongoDB.Bson": {
               "target": "Package",
@@ -240,6 +236,10 @@
             "NEST": {
               "target": "Package",
               "version": "[7.14.1, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
             },
             "Oracle.EntityFrameworkCore": {
               "target": "Package",

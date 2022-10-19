@@ -33,8 +33,8 @@ namespace Business.Handlers.Authorizations.Commands
             }
 
 
-           /* [SecuredOperation(Priority = 1)]
-            [ValidationAspect(typeof(RegisterUserValidator), Priority = 2)]*/
+            /*[SecuredOperation(Priority=1)]
+            [ValidationAspect(typeof(RegisterUserValidator),Priority =2)]*/
             [CacheRemoveAspect()]
             [LogAspect(typeof(FileLogger))]
             public async Task<IResult> Handle(RegisterUserCommand request, CancellationToken cancellationToken)

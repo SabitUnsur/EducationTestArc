@@ -23,7 +23,7 @@ namespace Core.DependencyResolvers
             services.AddMemoryCache();
             services.AddSingleton<ICacheManager, MemoryCacheManager>();
             services.AddSingleton<IMailService, MailManager>();
-            services.AddSingleton<IEmailConfiguration, EmailConfiguration>();
+            //services.AddSingleton<IEmailConfiguration, EmailConfiguration>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddSingleton<Stopwatch>();
             services.AddMediatR(Assembly.GetExecutingAssembly());

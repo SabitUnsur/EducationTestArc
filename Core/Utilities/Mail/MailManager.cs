@@ -4,7 +4,9 @@ using Microsoft.Extensions.Configuration;
 using MimeKit;
 using MimeKit.Text;
 using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
 namespace Core.Utilities.Mail
 {

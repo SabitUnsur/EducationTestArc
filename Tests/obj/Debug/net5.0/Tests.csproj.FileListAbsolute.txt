@@ -117,7 +117,6 @@ C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\Microso
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Xml.dll
-C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
@@ -187,7 +186,6 @@ C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\System.
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\System.Drawing.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\System.Drawing.Primitives.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\System.Dynamic.Runtime.dll
-C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\System.Formats.Asn1.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\System.Globalization.Calendars.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\System.Globalization.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\System.Globalization.Extensions.dll
@@ -242,7 +240,6 @@ C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\System.
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\System.Resources.Reader.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\System.Resources.ResourceManager.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\System.Resources.Writer.dll
-C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.VisualC.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\System.Runtime.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\System.Runtime.Extensions.dll
@@ -273,7 +270,6 @@ C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\System.
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\System.Security.SecureString.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\System.ServiceModel.Web.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\System.ServiceProcess.dll
-C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\System.Text.Encoding.CodePages.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\System.Text.Encoding.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\System.Text.Encoding.Extensions.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\System.Text.Encodings.Web.dll
@@ -592,3 +588,11 @@ C:\Users\sabit\source\repos\EducationBackend\Tests\obj\Debug\net5.0\refint\Tests
 C:\Users\sabit\source\repos\EducationBackend\Tests\obj\Debug\net5.0\Tests.pdb
 C:\Users\sabit\source\repos\EducationBackend\Tests\obj\Debug\net5.0\Tests.genruntimeconfig.cache
 C:\Users\sabit\source\repos\EducationBackend\Tests\obj\Debug\net5.0\ref\Tests.dll
+C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\NETCore.MailKit.dll
+C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\System.Formats.Asn1.dll
+C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
+C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Text.Encoding.CodePages.dll
