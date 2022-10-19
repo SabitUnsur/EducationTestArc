@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Tests\\Tests.csproj": {}
+    "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Tests\\Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Business\\Business.csproj": {
+    "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\sabit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Business\\obj\\",
+        "projectPath": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\batuh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Business\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sabit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\batuh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +32,11 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\sabit\\source\\repos\\EducationBackend\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Entities\\Entities.csproj"
+              "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Entities\\Entities.csproj"
               }
             }
           }
@@ -123,21 +127,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Core\\Core.csproj": {
+    "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\sabit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Core\\obj\\",
+        "projectPath": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\batuh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sabit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\batuh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -305,21 +313,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sabit\\source\\repos\\EducationBackend\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\sabit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\batuh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sabit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\batuh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -333,11 +345,11 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Core\\Core.csproj"
+              "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Core\\Core.csproj"
               },
-              "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Entities\\Entities.csproj"
+              "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Entities\\Entities.csproj"
               }
             }
           }
@@ -404,21 +416,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Entities\\Entities.csproj": {
+    "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\sabit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\batuh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Entities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sabit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\batuh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -432,8 +448,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Core\\Core.csproj"
+              "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Core\\Core.csproj"
               }
             }
           }
@@ -462,21 +478,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Tests\\Tests.csproj": {
+    "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Tests\\Tests.csproj": {
       "version": "2.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Tests\\Tests.csproj",
+        "projectUniqueName": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Tests\\Tests.csproj",
         "projectName": "Tests",
-        "projectPath": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Tests\\Tests.csproj",
-        "packagesPath": "C:\\Users\\sabit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Tests\\obj\\",
+        "projectPath": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Tests\\Tests.csproj",
+        "packagesPath": "C:\\Users\\batuh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Tests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sabit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\batuh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -490,14 +510,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Business\\Business.csproj"
+              "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Business\\Business.csproj"
               },
-              "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Core\\Core.csproj"
+              "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Core\\Core.csproj"
               },
-              "C:\\Users\\sabit\\source\\repos\\EducationBackend\\WebAPI\\WebAPI.csproj": {
-                "projectPath": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\WebAPI\\WebAPI.csproj"
+              "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\WebAPI\\WebAPI.csproj": {
+                "projectPath": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\WebAPI\\WebAPI.csproj"
               }
             }
           }
@@ -566,21 +586,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sabit\\source\\repos\\EducationBackend\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\sabit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\batuh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sabit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\batuh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -594,11 +618,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Business\\Business.csproj"
+              "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Business\\Business.csproj"
               },
-              "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\sabit\\source\\repos\\EducationBackend\\Entities\\Entities.csproj"
+              "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\batuh\\source\\repos\\EducationTestArc\\Entities\\Entities.csproj"
               }
             }
           }
@@ -666,7 +690,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

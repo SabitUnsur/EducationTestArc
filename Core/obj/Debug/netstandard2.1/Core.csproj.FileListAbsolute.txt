@@ -8,3 +8,13 @@ C:\Users\sabit\source\repos\EducationBackend\Core\obj\Debug\netstandard2.1\Core.
 C:\Users\sabit\source\repos\EducationBackend\Core\obj\Debug\netstandard2.1\Core.csproj.CoreCompileInputs.cache
 C:\Users\sabit\source\repos\EducationBackend\Core\obj\Debug\netstandard2.1\Core.dll
 C:\Users\sabit\source\repos\EducationBackend\Core\obj\Debug\netstandard2.1\Core.pdb
+C:\Users\batuh\source\repos\EducationTestArc\Core\bin\Debug\netstandard2.1\Core.deps.json
+C:\Users\batuh\source\repos\EducationTestArc\Core\bin\Debug\netstandard2.1\Core.dll
+C:\Users\batuh\source\repos\EducationTestArc\Core\bin\Debug\netstandard2.1\Core.pdb
+C:\Users\batuh\source\repos\EducationTestArc\Core\obj\Debug\netstandard2.1\Core.csproj.AssemblyReference.cache
+C:\Users\batuh\source\repos\EducationTestArc\Core\obj\Debug\netstandard2.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\batuh\source\repos\EducationTestArc\Core\obj\Debug\netstandard2.1\Core.AssemblyInfoInputs.cache
+C:\Users\batuh\source\repos\EducationTestArc\Core\obj\Debug\netstandard2.1\Core.AssemblyInfo.cs
+C:\Users\batuh\source\repos\EducationTestArc\Core\obj\Debug\netstandard2.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\batuh\source\repos\EducationTestArc\Core\obj\Debug\netstandard2.1\Core.dll
+C:\Users\batuh\source\repos\EducationTestArc\Core\obj\Debug\netstandard2.1\Core.pdb
