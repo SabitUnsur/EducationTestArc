@@ -26,7 +26,7 @@ namespace Business.Handlers.OperationClaims.Commands
                 _operationClaimRepository = operationClaimRepository;
             }
 
-            [SecuredOperation(Priority = 1)]
+            // [SecuredOperation(Priority = 1)]
             [CacheRemoveAspect()]
             [LogAspect(typeof(FileLogger))]
             public async Task<IResult> Handle(UpdateOperationClaimCommand request, CancellationToken cancellationToken)

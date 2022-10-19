@@ -12,7 +12,7 @@ namespace Core.Entities.Concrete
         }
 
         public int UserId { get; set; }
-        public long CitizenId { get; set; }
+        //public long CitizenId { get; set; }
         public string FullName { get; set; }
         public string Email { get; set; }
         public string RefreshToken { get; set; }

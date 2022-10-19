@@ -31,7 +31,7 @@ namespace Business.BusinessAspects
         protected override void OnBefore(IInvocation invocation)
         {
             var userId = _httpContextAccessor.HttpContext?.User.Claims
-                .FirstOrDefault(x => x.Type.EndsWith("nameidentifier"))?.Value;
+                .FirstOrDefault(x => x.Type.EndsWith("nameIdentifier"))?.Value;
 
             if (userId == null)
             {

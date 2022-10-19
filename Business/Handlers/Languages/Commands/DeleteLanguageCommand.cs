@@ -28,7 +28,7 @@ namespace Business.Handlers.Languages.Commands
 
             [CacheRemoveAspect()]
             [LogAspect(typeof(FileLogger))]
-            [SecuredOperation(Priority = 1)]
+            // [SecuredOperation(Priority = 1)]
             public async Task<IResult> Handle(DeleteLanguageCommand request, CancellationToken cancellationToken)
             {
                 var languageToDelete = _languageRepository.Get(p => p.Id == request.Id);

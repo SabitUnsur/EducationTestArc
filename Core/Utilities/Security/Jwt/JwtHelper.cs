@@ -81,10 +81,10 @@ namespace Core.Utilities.Security.Jwt
         {
             var claims = new List<Claim>();
             claims.AddNameIdentifier(user.UserId.ToString());
-            if (user.CitizenId > 0)
+           /* if (user.CitizenId > 0)
             {
                 claims.AddNameUniqueIdentifier(user.CitizenId.ToString());
-            }
+            }*/
 
             if (!string.IsNullOrEmpty(user.FullName))
             {

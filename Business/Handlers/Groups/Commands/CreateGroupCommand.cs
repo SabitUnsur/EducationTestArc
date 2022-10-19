@@ -27,7 +27,7 @@ namespace Business.Handlers.Groups.Commands
                 _groupRepository = groupRepository;
             }
 
-            [SecuredOperation(Priority = 1)]
+            //[SecuredOperation(Priority = 1)]
             [CacheRemoveAspect()]
             [LogAspect(typeof(FileLogger))]
             public async Task<IResult> Handle(CreateGroupCommand request, CancellationToken cancellationToken)

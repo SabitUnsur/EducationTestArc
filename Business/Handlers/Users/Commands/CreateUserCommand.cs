@@ -16,7 +16,7 @@ namespace Business.Handlers.Users.Commands
     public class CreateUserCommand : IRequest<IResult>
     {
         public int UserId { get; set; }
-        public long CitizenId { get; set; }
+        //public long CitizenId { get; set; }
         public string FullName { get; set; }
         public string Email { get; set; }
         public string MobilePhones { get; set; }
@@ -39,7 +39,7 @@ namespace Business.Handlers.Users.Commands
                 _userRepository = userRepository;
             }
 
-            [SecuredOperation(Priority = 1)]
+            //[SecuredOperation(Priority = 1)]
             [CacheRemoveAspect()]
             [LogAspect(typeof(FileLogger))]
             public async Task<IResult> Handle(CreateUserCommand request, CancellationToken cancellationToken)
@@ -58,7 +58,7 @@ namespace Business.Handlers.Users.Commands
                     Status = true,
                     Address = request.Address,
                     BirthDate = request.BirthDate,
-                    CitizenId = request.CitizenId,
+                    //CitizenId = request.CitizenId,
                     Gender = request.Gender,
                     Notes = request.Notes,
                     MobilePhones = request.MobilePhones

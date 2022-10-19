@@ -24,7 +24,7 @@ namespace Business.Handlers.UserGroups.Commands
                 _userGroupRepository = userGroupRepository;
             }
 
-            [SecuredOperation(Priority = 1)]
+            // [SecuredOperation(Priority = 1)]
             [CacheRemoveAspect()]
             [LogAspect(typeof(FileLogger))]
             public async Task<IResult> Handle(DeleteUserGroupCommand request, CancellationToken cancellationToken)

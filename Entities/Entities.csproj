@@ -8,6 +8,10 @@
     <CodeAnalysisRuleSet>$(SolutionDir)\shared\DevArchitectureCodeAnalysis.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="System.ServiceModel.Http" Version="4.10.0" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj" />
   </ItemGroup>
 

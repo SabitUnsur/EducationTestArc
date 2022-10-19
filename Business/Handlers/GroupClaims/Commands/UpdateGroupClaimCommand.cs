@@ -28,7 +28,7 @@ namespace Business.Handlers.GroupClaims.Commands
                 _groupClaimRepository = groupClaimRepository;
             }
 
-            [SecuredOperation(Priority = 1)]
+            //[SecuredOperation(Priority = 1)]
             [CacheRemoveAspect()]
             [LogAspect(typeof(FileLogger))]
             public async Task<IResult> Handle(UpdateGroupClaimCommand request, CancellationToken cancellationToken)

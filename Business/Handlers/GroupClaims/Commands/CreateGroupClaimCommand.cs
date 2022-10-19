@@ -25,7 +25,7 @@ namespace Business.Handlers.GroupClaims.Commands
                 _operationClaimRepository = operationClaimRepository;
             }
 
-            [SecuredOperation(Priority = 1)]
+            //[SecuredOperation("CreateGroupClaimCommand")]
             [CacheRemoveAspect()]
             [LogAspect(typeof(FileLogger))]
             public async Task<IResult> Handle(CreateGroupClaimCommand request, CancellationToken cancellationToken)

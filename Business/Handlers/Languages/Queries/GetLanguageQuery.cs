@@ -25,7 +25,7 @@ namespace Business.Handlers.Languages.Queries
                 _mediator = mediator;
             }
 
-            [SecuredOperation(Priority = 1)]
+            // [SecuredOperation(Priority = 1)]
             [LogAspect(typeof(FileLogger))]
             public async Task<IDataResult<Language>> Handle(GetLanguageQuery request, CancellationToken cancellationToken)
             {

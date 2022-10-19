@@ -96,6 +96,8 @@ namespace WebAPI.Controllers
         /// </summary>
         /// <param name="command"></param>
         /// <returns></returns>
+        ///<response code="200"></response>
+        [AllowAnonymous]
         [Consumes("application/json")]
         [Produces("application/json", "text/plain")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(string))]

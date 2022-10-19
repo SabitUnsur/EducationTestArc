@@ -16,6 +16,7 @@
 		<Compile Remove="Concrete\EntityFramework\ContextExtensions.cs" />
 	</ItemGroup>
 	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.9">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -31,6 +32,8 @@
 		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design" Version="1.1.0" />
 
 		<PackageReference Include="Oracle.EntityFrameworkCore" Version="5.21.3" />
+
+		<PackageReference Include="System.ServiceModel.Http" Version="4.10.0" />
 
 	</ItemGroup>
 

@@ -31,16 +31,16 @@ namespace Business.Services.Authentication
 
         public override async Task<LoginUserResult> Login(LoginUserCommand command)
         {
-            var citizenId = command.AsCitizenId();
+            //var citizenId = command.AsCitizenId();
             var user = await _users.Query()
-                .Where(u => u.CitizenId == citizenId)
+                .Where(u => u.UserId > 0)
                 .FirstOrDefaultAsync();
 
 
-            if (command.IsPhoneValid)
+           /* if (command.IsPhoneValid)
             {
                 return await PrepareOneTimePassword(AuthenticationProviderType.Person, user.MobilePhones, user.CitizenId.ToString());
-            }
+            }*/
 
             return new LoginUserResult
             {
@@ -53,8 +53,8 @@ namespace Business.Services.Authentication
 
         public override async Task<DArchToken> CreateToken(VerifyOtpCommand command)
         {
-            var citizenId = long.Parse(command.ExternalUserId);
-            var user = await _users.GetAsync(u => u.CitizenId == citizenId);
+            var userID = long.Parse(command.ExternalUserId);
+            var user = await _users.GetAsync(u => u.UserId > 0);
             user.AuthenticationProviderType = ProviderType.ToString();
 
             var claims = _users.GetClaims(user.UserId);

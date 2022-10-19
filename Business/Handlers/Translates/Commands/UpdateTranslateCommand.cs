@@ -31,7 +31,7 @@ namespace Business.Handlers.Translates.Commands
                 _mediator = mediator;
             }
 
-            [SecuredOperation(Priority = 1)]
+            //[SecuredOperation(Priority = 1)]
             [ValidationAspect(typeof(CreateTranslateValidator), Priority = 2)]
             [CacheRemoveAspect()]
             [LogAspect(typeof(FileLogger))]

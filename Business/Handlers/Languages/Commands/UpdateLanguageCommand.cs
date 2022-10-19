@@ -30,7 +30,7 @@ namespace Business.Handlers.Languages.Commands
                 _mediator = mediator;
             }
 
-            [SecuredOperation(Priority = 1)]
+            //  [SecuredOperation(Priority = 1)]
             [ValidationAspect(typeof(UpdateLanguageValidator), Priority = 2)]
             [CacheRemoveAspect()]
             [LogAspect(typeof(FileLogger))]

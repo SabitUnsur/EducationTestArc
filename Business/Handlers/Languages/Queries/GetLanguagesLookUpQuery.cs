@@ -28,7 +28,7 @@ namespace Business.Handlers.Languages.Queries
                 _mediator = mediator;
             }
 
-            [SecuredOperation(Priority = 1)]
+            //[SecuredOperation(Priority = 1)]
             [PerformanceAspect(5)]
             [CacheAspect(10)]
             [LogAspect(typeof(FileLogger))]

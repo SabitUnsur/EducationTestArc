@@ -38,11 +38,12 @@
             <response code="200"></response>
         </member>
         <member name="M:WebAPI.Controllers.AuthController.ChangeUserPassword(Business.Handlers.Users.Commands.UserChangePasswordCommand)">
-            <summary>
-            Make it Change Password operation
-            </summary>
-            <param name="command"></param>
-            <returns></returns>
+             <summary>
+             Make it Change Password operation
+             </summary>
+             <param name="command"></param>
+             <returns></returns>
+            <response code="200"></response>
         </member>
         <member name="M:WebAPI.Controllers.AuthController.Verification(Business.Handlers.Authorizations.Queries.VerifyCidQuery)">
             <summary>

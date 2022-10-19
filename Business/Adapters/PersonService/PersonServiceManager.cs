@@ -1,29 +1,32 @@
-﻿using Entities.Dtos;
+﻿using Business.Constants;
+using Core.Utilities.Results;
+using DataAccess.Abstract;
+using DataAccess.Concrete.EntityFramework;
+using Entities.Dtos;
 using System.Globalization;
 using System.Threading.Tasks;
-using wsKPSPublic;
 
 namespace Business.Adapters.PersonService
 {
     public class PersonServiceManager : IPersonService
     {
-        public async Task<bool> VerifyCid(Citizen citizen)
+        IUserRepository _userRepository;
+        public PersonServiceManager(IUserRepository userRepository)
         {
-            return await Verify(citizen);
+            _userRepository = userRepository;
         }
-
-        private static async Task<bool> Verify(Citizen citizen)
+        public async Task<bool> VerifyCid(UserForAuth userForAuth)
         {
-            var locale = new CultureInfo("tr-TR", false);
-            var svc = new KPSPublicSoapClient(KPSPublicSoapClient.EndpointConfiguration.KPSPublicSoap);
+            return await VerifyEmail(userForAuth);
+        }
+        public async Task<bool> VerifyEmail(UserForAuth userForAuth)
+        {
+            var isExist = _userRepository.GetMail(userForAuth.Email);
+            if (isExist == null)
             {
-                var cmd = await svc.TCKimlikNoDogrulaAsync(
-                    citizen.CitizenId,
-                    citizen.Name.ToUpper(locale),
-                    citizen.Surname.ToUpper(locale),
-                    citizen.BirthYear);
-                return cmd.Body.TCKimlikNoDogrulaResult;
+                return false;
             }
+            return true;
         }
     }
 }

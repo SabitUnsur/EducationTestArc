@@ -25,7 +25,7 @@ namespace Business.Handlers.Translates.Queries
                 _mediator = mediator;
             }
 
-            [SecuredOperation(Priority = 1)]
+            //[SecuredOperation(Priority = 1)]
             [LogAspect(typeof(FileLogger))]
             public async Task<IDataResult<Translate>> Handle(GetTranslateQuery request, CancellationToken cancellationToken)
             {

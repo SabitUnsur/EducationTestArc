@@ -13,7 +13,11 @@ namespace Tests.Helpers.Adapter
             _personService = personService;
         }
 
-        public bool VerifyId(Citizen citizen)
+
+
+
+
+        /*public bool VerifyId(Citizen citizen)
         {
             try
             {
@@ -23,6 +27,6 @@ namespace Tests.Helpers.Adapter
             {
                 return false;
             }
-        }
+        }*/
     }
 }

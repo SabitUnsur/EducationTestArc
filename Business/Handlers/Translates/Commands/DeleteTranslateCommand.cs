@@ -26,7 +26,7 @@ namespace Business.Handlers.Translates.Commands
                 _mediator = mediator;
             }
 
-            [SecuredOperation(Priority = 1)]
+            //[SecuredOperation(Priority = 1)]
             [CacheRemoveAspect()]
             [LogAspect(typeof(FileLogger))]
             public async Task<IResult> Handle(DeleteTranslateCommand request, CancellationToken cancellationToken)

@@ -1,6 +1,7 @@
 ﻿using Business.Handlers.Users.Commands;
 using Business.Handlers.Users.Queries;
 using Core.Entities.Dtos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
@@ -21,6 +22,7 @@ namespace WebAPI.Controllers
         /// <remarks>bla bla bla Users</remarks>
         /// <return>Users List</return>
         /// <response code="200"></response>
+        [AllowAnonymous]
         [Produces("application/json", "text/plain")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(IEnumerable<UserDto>))]
         [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(string))]

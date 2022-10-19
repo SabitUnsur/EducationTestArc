@@ -24,7 +24,7 @@ namespace Business.Handlers.Users.Commands
                 _userRepository = userRepository;
             }
 
-            [SecuredOperation(Priority = 1)]
+            //[SecuredOperation(Priority = 1)]
             [CacheRemoveAspect()]
             [LogAspect(typeof(FileLogger))]
             public async Task<IResult> Handle(DeleteUserCommand request, CancellationToken cancellationToken)

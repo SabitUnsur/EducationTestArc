@@ -3,6 +3,9 @@ using Business.Constants;
 using Core.Utilities.Results;
 using Entities.Dtos;
 using MediatR;
+using System;
+using System.Collections.Generic;
+using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -12,8 +15,7 @@ namespace Business.Handlers.Authorizations.Queries
     {
         public string Name { get; set; }
         public string Surname { get; set; }
-        public long CitizenId { get; set; }
-        public int BirthYear { get; set; }
+        public string Email { get; set; }
 
         public class VerifyCidQueryHandler : IRequestHandler<VerifyCidQuery, IDataResult<bool>>
         {
@@ -26,12 +28,11 @@ namespace Business.Handlers.Authorizations.Queries
 
             public async Task<IDataResult<bool>> Handle(VerifyCidQuery request, CancellationToken cancellationToken)
             {
-                var result = await _personService.VerifyCid(new Citizen()
+                var result = await _personService.VerifyEmail(new UserForAuth()
                 {
-                    BirthYear = request.BirthYear,
-                    CitizenId = request.CitizenId,
                     Name = request.Name,
-                    Surname = request.Surname
+                    Surname = request.Surname,
+                    Email = request.Email
                 });
                 if (!result)
                 {

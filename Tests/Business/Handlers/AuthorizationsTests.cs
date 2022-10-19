@@ -159,7 +159,7 @@ namespace Tests.Business.Handlers
             _forgotPasswordCommand = new ForgotPasswordCommand
             {
                 Email = user.Email,
-                TcKimlikNo = Convert.ToString(user.CitizenId)
+                //TcKimlikNo = Convert.ToString(user.CitizenId)
             };
             var result =
                 await _forgotPasswordCommandHandler.Handle(_forgotPasswordCommand, new CancellationToken());

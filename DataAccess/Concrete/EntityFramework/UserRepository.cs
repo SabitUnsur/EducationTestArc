@@ -43,5 +43,10 @@ namespace DataAccess.Concrete.EntityFramework
         {
             return await Context.Users.FirstOrDefaultAsync(u => u.RefreshToken == refreshToken && u.Status);
         }
+
+        User IUserRepository.GetMail(string email)
+        {
+            return Context.Users.FirstOrDefault(u => u.Email == email);
+        }
     }
 }

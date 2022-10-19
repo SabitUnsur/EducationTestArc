@@ -24,7 +24,7 @@ namespace Business.Handlers.UserClaims.Commands
                 _userClaimRepository = userClaimRepository;
             }
 
-            [SecuredOperation(Priority = 1)]
+            //[SecuredOperation(Priority = 1)]
             [CacheRemoveAspect()]
             [LogAspect(typeof(FileLogger))]
             public async Task<IResult> Handle(DeleteUserClaimCommand request, CancellationToken cancellationToken)

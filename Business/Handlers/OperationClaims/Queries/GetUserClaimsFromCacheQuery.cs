@@ -1,4 +1,5 @@
-﻿using Business.Constants;
+﻿using Business.BusinessAspects;
+using Business.Constants;
 using Core.Aspects.Autofac.Caching;
 using Core.Aspects.Autofac.Logging;
 using Core.Aspects.Autofac.Performance;
@@ -38,7 +39,7 @@ namespace Business.Handlers.OperationClaims.Queries
             [PerformanceAspect(5)]
             [CacheAspect(10)]
             [LogAspect(typeof(FileLogger))]
-            // TODO:[SecuredOperation(Priority = 1)]
+            [SecuredOperation(Priority = 1)]
             public async Task<IDataResult<IEnumerable<string>>> Handle(GetUserClaimsFromCacheQuery request, CancellationToken cancellationToken)
             {
                 var userId = _contextAccessor.HttpContext.User.Claims

@@ -9,8 +9,8 @@ using Tests.Helpers.Adapter;
 
 namespace Tests.Business.Adapters
 {
-    [TestFixture]
-    public class PersonManagerTests
+   // [TestFixture]
+   /* public class PersonManagerTests
     {
         private const int BirthYear = 1987;
         private const string Surname = "Test1";
@@ -71,5 +71,5 @@ namespace Tests.Business.Adapters
                 CitizenId = citizenId
             };
         }
-    }
+    }*/
 }

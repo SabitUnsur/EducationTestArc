@@ -29,7 +29,7 @@ namespace Business.Handlers.UserClaims.Commands
                 _cacheManager = cacheManager;
             }
 
-            [SecuredOperation(Priority = 1)]
+            // [SecuredOperation(Priority = 1)]
             [CacheRemoveAspect()]
             [LogAspect(typeof(FileLogger))]
             public async Task<IResult> Handle(CreateUserClaimCommand request, CancellationToken cancellationToken)
