@@ -10,7 +10,7 @@ namespace DataAccess.Abstract
         List<OperationClaim> GetClaims(int userId);
         Task<User> GetByRefreshToken(string refreshToken);
 
-        User GetMail(string email);
+        Task<User> GetMail(string email); // Task Tanýmý Yapýldý.
 
 
     }

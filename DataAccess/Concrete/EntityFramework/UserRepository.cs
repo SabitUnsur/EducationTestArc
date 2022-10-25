@@ -44,7 +44,7 @@ namespace DataAccess.Concrete.EntityFramework
             return await Context.Users.FirstOrDefaultAsync(u => u.RefreshToken == refreshToken && u.Status);
         }
 
-        User IUserRepository.GetMail(string email)
+        public async Task<User>GetMail(string email) //Asenkron metodolji tanýmlandý
         {
             return Context.Users.FirstOrDefault(u => u.Email == email);
         }

@@ -139,7 +139,6 @@ C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\Microso
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.EventLog.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.EventSource.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.TraceSource.dll
-C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.ObjectPool.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
 C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.dll
@@ -1194,3 +1193,17 @@ C:\Users\batuh\source\repos\EducationTestArc\Tests\obj\Debug\net5.0\refint\Tests
 C:\Users\batuh\source\repos\EducationTestArc\Tests\obj\Debug\net5.0\Tests.pdb
 C:\Users\batuh\source\repos\EducationTestArc\Tests\obj\Debug\net5.0\Tests.genruntimeconfig.cache
 C:\Users\batuh\source\repos\EducationTestArc\Tests\obj\Debug\net5.0\ref\Tests.dll
+C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\cs\System.Private.ServiceModel.resources.dll
+C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\de\System.Private.ServiceModel.resources.dll
+C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\es\System.Private.ServiceModel.resources.dll
+C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\fr\System.Private.ServiceModel.resources.dll
+C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\it\System.Private.ServiceModel.resources.dll
+C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\ja\System.Private.ServiceModel.resources.dll
+C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\ko\System.Private.ServiceModel.resources.dll
+C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\pl\System.Private.ServiceModel.resources.dll
+C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\pt-BR\System.Private.ServiceModel.resources.dll
+C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\ru\System.Private.ServiceModel.resources.dll
+C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\tr\System.Private.ServiceModel.resources.dll
+C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\zh-Hans\System.Private.ServiceModel.resources.dll
+C:\Users\sabit\source\repos\EducationBackend\Tests\bin\Debug\net5.0\zh-Hant\System.Private.ServiceModel.resources.dll

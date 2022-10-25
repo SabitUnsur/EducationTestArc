@@ -77,7 +77,7 @@ namespace WebAPI.Controllers
         /// <summary>
         /// Make it Forgot Password operations
         /// </summary>
-        /// <remarks>tckimlikno</remarks>
+        /// <remarks>ForgotPasswordOperation</remarks>
         /// <return></return>
         /// <response code="200"></response>
         [AllowAnonymous]

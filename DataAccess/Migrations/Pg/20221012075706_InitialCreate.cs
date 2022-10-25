@@ -141,7 +141,7 @@ namespace DataAccess.Migrations.Pg
                 {
                     UserId = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    CitizenId = table.Column<long>(type: "bigint", nullable: false),
+                    //CitizenId = table.Column<long>(type: "bigint", nullable: false),
                     FullName = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
                     Email = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: true),
                     RefreshToken = table.Column<string>(type: "text", nullable: true),

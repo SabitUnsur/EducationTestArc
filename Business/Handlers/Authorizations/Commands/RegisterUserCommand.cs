@@ -50,9 +50,8 @@ namespace Business.Handlers.Authorizations.Commands
                 var user = new User
                 {
                     Email = request.Email,
-
                     FullName = request.FullName,
-                    PasswordHash = passwordHash,
+                   PasswordHash = passwordHash,
                     PasswordSalt = passwordSalt,
                     Status = true
                 };

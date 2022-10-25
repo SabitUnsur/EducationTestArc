@@ -9,7 +9,6 @@ namespace DataAccess.Concrete.Configurations
         public void Configure(EntityTypeBuilder<User> builder)
         {
             builder.HasKey(x => x.UserId);
-            //builder.Property(x => x.CitizenId).IsRequired();
             builder.Property(x => x.FullName).HasMaxLength(100).IsRequired();
             builder.Property(x => x.Email).HasMaxLength(50);
             builder.Property(x => x.Status).IsRequired();
@@ -20,7 +19,6 @@ namespace DataAccess.Concrete.Configurations
             builder.Property(x => x.MobilePhones).HasMaxLength(30);
             builder.Property(x => x.Notes).HasMaxLength(500);
 
-            //builder.HasIndex(x => x.CitizenId);
             builder.HasIndex(x => x.MobilePhones);
         }
     }
